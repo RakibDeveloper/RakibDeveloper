@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.rakibkhan{
+  width: 100%;
+  background-color: black;
+  height: 60px;
+
+}
+.rakibkhan p{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  color: white;
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+#container{
+float: right;
+margin-top: -60px;
+}
+
+#container ul{
+  list-style: none;
+
+}
+#container ul li{
+  background-color: black;
+  width: 150px;
+  height: 60px;
+  line-height: 58px;
+  text-align: center;
+  float: left;
+  font-size: 18px;
+  font-family: arial;
+  position: relative;
+
+}
+#container ul li:hover{
+  background-color: green;
+}
+#container ul ul{
+  display: none;
+}
+#container ul li:hover>ul{
+  display: block;
+}
+
+#container ul li a{
+  color: white;
+  text-decoration: none;
+}
+#container ul ul ul{
+  margin-left: 150px;
+  top: 0px;
+  position: absolute;
+}
